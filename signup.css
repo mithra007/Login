@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Workbench&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    font-family: "Workbench", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "BLED" 0,
+      "SCAN" 0;
+    /* border: 1px solid #e77204 ; */
+}
+.imageries{
+    margin-top: 5%;
+    margin-left: 17%;
+}
+#first{
+    display: flex;
+    flex-direction: row;
+    background-color:silver;
+}
+.text1{
+    margin-top: 2%;
+    /* background-color: green; */
+    height: 750px;
+    width: 600px;
+    box-shadow: 1px 3px 3px black;
+    margin-right: 4%;
+    margin-bottom: 4% ;
+}
+label{
+    font-size: 20px;
+    font-weight: bold;
+    color: blue;
+    margin-left: 3%;
+    padding-left: 3%;
+    margin-top: 2% ;
+}
+input[type="text"],[type="number"],[type="email"],[type="password"]{
+    padding: 2%;
+    margin-left: 3%;
+    width: 90%;
+    box-shadow: 2px 2px 5px gray;
+    border-radius: 25px;
+    border: none;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+input[type="checkbox"]{
+    padding: 2%;
+    margin-left: 3%;
+    accent-color: blue;
+
+}
+input[type="password"]:hover{
+    
+    border: 1px solid blue;
+    color: blue;
+}
+input[type="email"]:hover{
+    
+    border: 1px solid blue;
+    color: blue;
+}
+input[type="text"]:hover{
+    
+    border: 1px solid blue;
+    color: blue;
+}
+button{
+    border: none;
+    box-shadow: 2px 3px 4px gray;
+    color: beige;
+    font-size: 15px;
+    background-color:black;
+    margin-left: 3%;
+    border-radius: 25px;
+    width: 90%;
+    padding: 2%;
+}
+button:hover{
+    background-color: white;
+    border: 1px solid blue;
+    color: blue;
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+}
+.user1{
+color: blue;
+display: flex;
+font-weight: bolder;
+justify-content: center;
+}
+.c{
+    color: blue;
+    font-weight: bolder;
+}
